@@ -1,0 +1,29 @@
+{
+  "python.defaultInterpreterPath": "PATH_TO_ISAACLAB/_isaac_sim/kit/python/bin/python3",
+  "python.analysis.extraPaths": [
+    "PATH_TO_ISAACLAB/source/isaaclab",
+    "PATH_TO_ISAACLAB/source/isaaclab/isaaclab",
+    "PATH_TO_ISAACLAB/source/isaaclab_assets",
+    "PATH_TO_ISAACLAB/source/isaaclab_assets/isaaclab_assets",
+    "PATH_TO_ISAACLAB/source/isaaclab_rl",
+    "PATH_TO_ISAACLAB/source/isaaclab_rl/isaaclab_rl",
+    "PATH_TO_ISAACLAB/source/isaaclab_tasks",
+    "PATH_TO_ISAACLAB/source/isaaclab_tasks/isaaclab_tasks",
+    "PATH_TO_ISAACLAB/source/isaaclab_mimic",
+    "PATH_TO_ISAACLAB/source/isaaclab_mimic/isaaclab_mimic",
+  ],
+  "python.autoComplete.extraPaths": [
+    "PATH_TO_ISAACLAB/source/isaaclab",
+    "PATH_TO_ISAACLAB/source/isaaclab/isaaclab",
+    "PATH_TO_ISAACLAB/source/isaaclab_assets",
+    "PATH_TO_ISAACLAB/source/isaaclab_assets/isaaclab_assets",
+    "PATH_TO_ISAACLAB/source/isaaclab_rl",
+    "PATH_TO_ISAACLAB/source/isaaclab_rl/isaaclab_rl",
+    "PATH_TO_ISAACLAB/source/isaaclab_tasks",
+    "PATH_TO_ISAACLAB/source/isaaclab_tasks/isaaclab_tasks",
+    "PATH_TO_ISAACLAB/source/isaaclab_mimic",
+    "PATH_TO_ISAACLAB/source/isaaclab_mimic/isaaclab_mimic",
+  ],
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic"
+}
