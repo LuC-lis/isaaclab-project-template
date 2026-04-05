@@ -55,7 +55,7 @@ class MySceneCfg(InteractiveSceneCfg):
     # TODO: Adjust init_state pos (z) so the robot spawns just above the ground.
     robot: ArticulationCfg = _ROBOT_CONFIG.replace(
         prim_path="{ENV_REGEX_NS}/Robot",
-        init_state=_ROBOT_CONFIG.init_state.replace(pos=(0.0, 0.0, 0.6)),
+        init_state=_ROBOT_CONFIG.init_state.replace(pos=(0.0, 0.0, 0.2)),
     )
 
     # Contact sensor
@@ -66,11 +66,6 @@ class MySceneCfg(InteractiveSceneCfg):
         history_length=3,
         track_air_time=True,
     )
-
-
-##
-# MDP settings
-##
 
 
 @configclass
